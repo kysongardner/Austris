@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Wpf_tetris">
+</Property><Property Name="Solution File" Value="C:\git\Austris\Wpf_tetris.sln">
+</Property><Property Name="Date" Value="Sunday, August 24, 2014">
+</Property><Property Name="Time" Value="0:58 AM">
+</Property></Properties><Event ErrorLevel="0" Project="Wpf_tetris" Source="Wpf_tetris\Wpf_tetris.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Wpf_tetris" Source="Wpf_tetris\Wpf_tetris.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Wpf_tetris.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Wpf_tetris.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Wpf_tetris" Source="Wpf_tetris\Wpf_tetris.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -13,7 +13,8 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
-
+Wpf_tetris/bin/*
+Wpf_tetris/obj/*
 # =========================
 # Operating System Files
 # =========================

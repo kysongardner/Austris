@@ -233,7 +233,7 @@ namespace Wpf_tetris.engine
     {
         public enum TetrisShapes
         {
-            I, J, L, O, S, T, Z
+            I, J, L, O, S, T, Z,C
         };
         public enum TetrisMoves
         {
@@ -254,7 +254,7 @@ namespace Wpf_tetris.engine
         private static readonly List<Point> PointsForS = new List<Point>(new Point[] { new Point(0f, 1f), new Point(0, 0), new Point(1, 0), new Point(1, -1) });
         private static readonly List<Point> PointsForT = new List<Point>(new Point[] { new Point(0f, 1f), new Point(0, 0), new Point(0, -1), new Point(1, 0) });
         private static readonly List<Point> PointsForZ = new List<Point>(new Point[] { new Point(0f, 1f), new Point(0, 0), new Point(-1, 0), new Point(-1, -1) });
-
+        private static readonly List<Point> PointsForC = new List<Point>(new Point[] { new Point(0, 0), new Point(0, 1), new Point(0, 2), new Point(1,0), new Point(1,2) });
         List<TetrisPoint> _points = new List<TetrisPoint>();
 
         // private ObservableCollection<Point> _points = new ObservableCollection<Point>();
@@ -319,6 +319,8 @@ namespace Wpf_tetris.engine
                 case TetrisShapes.T: SomePoints = (PointsForT); color = Colors.Brown; ShapeHeight = 3;
                     break;
                 case TetrisShapes.Z: SomePoints = (PointsForZ); color = Colors.Cyan; ShapeHeight = 3;
+                    break;
+                case TetrisShapes.C: SomePoints = (PointsForC); color = Colors.Yellow; ShapeHeight = 3;
                     break;
                 default: SomePoints = (PointsForI); color = Colors.Red;
                     break;
@@ -836,8 +838,8 @@ namespace Wpf_tetris.engine
 
         private void queueNewPiece()
         {
-            TetrisShape.TetrisShapes ts1 = (TetrisShape.TetrisShapes)Convert.ToInt32(_rnd.NextDouble() * 7);
-            TetrisShape.TetrisShapes ts2 = (TetrisShape.TetrisShapes)Convert.ToInt32(_rnd.NextDouble() * 7);
+            TetrisShape.TetrisShapes ts1 = (TetrisShape.TetrisShapes)Convert.ToInt32(_rnd.NextDouble() * 8);
+            TetrisShape.TetrisShapes ts2 = (TetrisShape.TetrisShapes)Convert.ToInt32(_rnd.NextDouble() * 8);
             TetrisShape newShape;
             if (ts1 == TetrisShape.TetrisShapes.I)
             {

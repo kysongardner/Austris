@@ -1,0 +1,14 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>D:\Documents and Settings\Austin\Desktop\Wpf_tetris\Wpf_tetris\publish2\|D:\Documents and Settings\Austin\Desktop\Wpf_tetris\Wpf_tetris\publish\|ftp://ftp.allegiancestats.com/austris/|ftp://allegiancestats.com/austris/|publish\</PublishUrlHistory>
+    <InstallUrlHistory>http://www.allegiancestats.com/austris/</InstallUrlHistory>
+    <SupportUrlHistory>
+    </SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+</Project>
